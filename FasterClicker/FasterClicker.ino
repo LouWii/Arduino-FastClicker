@@ -73,8 +73,9 @@ void loop() {
                 int pushDelay = timeStopped - timeStarted;
                 reset();
 
-                Serial.println("Well done!");
-                Serial.println(pushDelay);
+                Serial.print("Well done! Your reaction time: ");
+                Serial.print(pushDelay);
+                Serial.println("ms");
             } else if (needsToStart) {
                 Serial.println("Hmm... Are you trying to cheat?");
                 Serial.println("Game has been reset");
