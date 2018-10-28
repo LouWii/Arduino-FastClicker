@@ -1,5 +1,9 @@
 # Clicker Games for Arduino
 
+Still playing around with my Arduino Leonardo, I've implemented 2 games using momentary push buttons. Just 'cause it's fun.
+
+Note: I'm using an Arduino Leonardo because that's the only one I have, but it'll surely works with other Arduinos as well, just pay attention to the pins I use as they might differ.
+
 ## Faster Clicker
 
 Small Arduino project to measure how fast you can click a button.
@@ -32,6 +36,6 @@ I've included schematics for this experiment as the Fritzing file as well. [Friz
 
 More to come 😉
 
-## Licensing
+## License
 
 GNU GPLv3 copyright (c) LouWii
