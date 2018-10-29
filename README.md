@@ -1,4 +1,4 @@
-# Clicker Games for Arduino
+# 🕹 Clicker Games for Arduino
 
 Still playing around with my Arduino Leonardo, I've implemented 2 games using momentary push buttons. Just 'cause it's fun.
 
@@ -26,15 +26,17 @@ Here are the respective results from the 3 versions:
 
 The lesson here is that using external libs is nice and helps a lot, but some might be too big for our use. In our case, AceButton is requiring too much memory for what we need to do. Sure, it has a lot of features and the code is quite clean, but I don't think it's worth using it if you just need a library that detects button presses and has debounce.
 
-### Schematics
+## FrenzyClicker
+
+Another very basic game where you have to press a button multiple times, as fast as possible, for 5 seconds.
+
+## Schematics
+
+Both games use the same schematics.
 
 ![sketch.png](sketch.png)
 
 I've included schematics for this experiment as the Fritzing file as well. [Frizing](http://www.fritzing.org/) is an open source hardware initiative, and they made a really nice and [open source software](https://github.com/fritzing/fritzing-app) to create electronic schematics.
-
-## FrenzyClicker
-
-More to come 😉
 
 ## License
 

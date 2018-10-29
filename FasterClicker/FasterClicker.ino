@@ -1,5 +1,5 @@
 
-const int debounceInterval = 50;
+const int debounceInterval = 30;
 
 const int pinLed = LED_BUILTIN;
 
